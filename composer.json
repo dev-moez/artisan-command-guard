@@ -1,5 +1,5 @@
 {
-    "name": "dev-moez/artisan-commands-guard",
+    "name": "dev-moez/artisan-command-guard",
     "description": "A package to prevent running critical artisan commands on production environment",
     "type": "library",
     "license": "MIT",
