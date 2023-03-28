@@ -1,0 +1,28 @@
+{
+    "name": "dev-moez/artisan-commands-guard",
+    "description": "A package to prevent running critical artisan commands on production environment",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevMoez\\ArtisanCommandGuard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdelrahman Moez",
+            "email": "abdelrahman.moez@icloud.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "DevMoez\\ArtisanCommandGuard\\Providers\\ArtisanCommandGuardServiceProvider"
+            ]
+        }
+    }
+}
